@@ -11,23 +11,23 @@ scanf("%c",&choice);
 switch(choice)
 {
   case'+':
-  printf("Addition=%d\n",a+b);
+  printf("Addition=%d\n",a + b);
   break;
   case'-':
-  printf("Substraction=%d\n",a-b);
+  printf("Substraction=%d\n",a - b);
   break;
   case'*':
-  printf("multiplication=%d\n",a*b);
+  printf("multiplication=%d\n",a * b);
   break;
   case'/':
-  if(b!=0)
-  printf("division=%d\n",a/b);
+if  (b!=0)
+  printf("division=%d\n",a / b);
   else
   printf("division by zero is not possible.\n");
   break;
   case'%':
   if(b!=0)
-  printf("Modulus=%d\n",a%b);
+  printf("Modulus=%d\n",a % b);
   else
   printf("modulus by zero is not possible.\n");
   break;
